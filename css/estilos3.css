@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.container {
+  position: relative;
+  perspective: 800px;
+  width: 340px;
+  height: 500px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -167px;
+
+}
+
+/* clases generales */
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.producto {
+  width: 325px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  overflow: hidden;
+}
+
+.producto__detalles {
+  background: white;
+  position: static;
+  left: 0;
+  top: 0;
+  padding: 27px 35px 35px;
+
+}
+
+.producto__detalles .producto__nombre {
+  font-size: 22px;
+  color: #393c45;
+}
+
+.producto__detalles p {
+  font-size: 16px;
+  color: #b1b1b3;
+  padding: 2px 0 20px 0;
+}
+
+.producto__detalles .producto__precio {
+  float: right;
+  color: #48cfad;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #48daa1;
+  opacity: 0;
+}
